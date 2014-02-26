@@ -2,7 +2,7 @@ require 'formula'
 
 class Rtlsdr < Formula
   homepage 'http://sdr.osmocom.org/trac/wiki/rtl-sdr'
-  head 'git://git.osmocom.org/rtl-sdr.git'
+  head 'https://github.com/steve-m/librtlsdr.git'
 
   depends_on 'pkg-config' => :build
   depends_on 'automake' => :build
